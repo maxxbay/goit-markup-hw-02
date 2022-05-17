@@ -1,12 +1,150 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --text-link: #2196F3;
+    --hero: #FFFFFF;
+    --background-team: #F5F4FA;
+    --bacground-color-hero: #2F303A;
+    --footer-color-text: rgba(255, 255, 255, 0.6);
+
+}
+
 body {
     font-family: 'Raleway',
         sans-serif;
 
     font-family: 'Roboto',
         sans-serif;
+    background-color: var(--hero);
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
 }
 
 /* Шапка */
-.site-nav:hover {
-    color: #fff;
+
+/* Кольори */
+/* #212121 текст чорний */
+/*  #757575 колір номера телефону*/
+/* #2196F3 текст синій */
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--text-link);
+}
+
+.header-nav .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--text-link);
+}
+
+.header-contacting .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.header-contacting .link:hover,
+.header-contacting .link:focus {
+    color: var(--text-link);
+}
+
+/* Головна сторінка */
+/* фон головного заголовку background: #2F303A */
+/* фон сторінки background: background: #FFFFFF; */
+/* Фон Наша команда background: #F5F4FA */
+/* #FFFFFF головний заголовок і колір кнопки*/
+/* Середина */
+/* Секція заголовки#212121 */
+/* Секція тексти абзаци #757575 */
+/* Другий і наступний заголовок + Прізвище ім'я  #212121 */
+/* Професія #757575 */
+
+/* HERO */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero .hero-title {
+    color: var(--hero);
+}
+
+/* Кнопка */
+.hero .button {
+    color: var(--hero);
+    background-color: var(--text-link);
+    /* position: absolute; */
+    width: 200px;
+    height: 50px;
+    /* left: 705px;
+    top: 430px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* SECTION */
+
+.section .section-title {
+    color: var(--primary-text-color);
+}
+
+
+
+/* Підвал */
+/* Лого перша частина #2196F3 */
+/* Лого друга частина #FFFFFF */
+/* Адреса #FFFFFF */
+/* пошта і телефон rgba(255, 255, 255, 0.6) */
+
+/* 2-га сторінка фон background: #E5E5E5 */
+.footer {
+    background-color: var(--bacground-color-hero);
+}
+
+.footer .footer-logo {
+    color: var(--hero);
+}
+
+.adress .adress-one {
+    color: var(--hero);
+}
+
+.adress .adress-contact {
+    color: var(--footer-color-text);
+}
+
+.adress .adress-tel {
+    color: var(--footer-color-text);
 }
