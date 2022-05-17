@@ -49,6 +49,10 @@ ul {
     color: var(--primary-text-color);
 }
 
+.header-nav .link.current {
+    color: var(--text-link);
+}
+
 .header-nav .link:hover,
 .header-nav .link:focus {
     color: var(--text-link);
