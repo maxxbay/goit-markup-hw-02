@@ -16,92 +16,98 @@
 <body>
     <!-- Шапка -->
 
-    <header>
+    <header class="header">
         <nav>
-            <a href="./index.html"> WebStudio </a>
-            <ul>
+            <!-- Header logo -->
+            <a href="./index.html" class="header-logo"> <span class="logo-web">Web</span><span
+                    class="logo-studio">Studio</span> </a>
+            <!-- Header nav -->
+            <ul class="header-nav">
                 <li>
-                    <a href="./index.html"> Студия </a>
+                    <!-- Header studio -->
+                    <a href="./index.html" class="link"> Studio </Студия </a> </li> <li>
+                        <!-- Header portfolio -->
+                        <a href="./portfolio.html" class="link current"> Портфолио </a>
                 </li>
                 <li>
-                    <a href="./portfolio.html"> Портфолио </a>
-                </li>
-                <li>
-                    <a href="#"> Контакты </a>
+                    <!-- Header contacts -->
+                    <a href="#" class="link"> Контакты </a>
                 </li>
             </ul>
         </nav>
-        <ul>
+        <!-- Header contacting -->
+        <ul class="header-contacting">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
         </ul>
+
     </header>
 
     <!-- Головна частина сторінки -->
     <main>
 
-        <section>
-            <ul>
-                <li><button type="button" name="All Products">Все</button> </li>
-                <li><button type="button" name="Web Sites">Веб-сайты</button></li>
-                <li><button type="button" name="Aplications">Приложения</button></li>
-                <li></li><button type="button" name="Design">Дизайн</button></li>
-                <li></li><button type="button" name="Marketing">Маркетинг</button></li>
+        <section class="section-portfolio">
+            <ul class="button-portfolio">
+                <li><button type="button" name="All Products" class="btn">Все</button></li>
+                <li><button type="button" name="Web Sites" class="btn">Веб-сайты</button></li>
+                <li><button type="button" name="Aplications" class="btn">Приложения</button></li>
+                <li></li><button type="button" name="Design" class="btn">Дизайн</button></li>
+                <li></li><button type="button" name="Marketing" class="btn">Маркетинг</button></li>
 
             </ul>
 
             <!-- Список виконаних кейсів команди  -->
 
-            <ul class="">
+            <ul class="cases">
                 <h1>Кейси команди</h1>
                 <li>
                     <img src="./images/portfolio1.jpg" alt="Технокряк" width="370px" height="294px">
-                    <h2>Технокряк</h2>
+                    <h2 class="cases-title">Технокряк</h2>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370px"
                         height="294px">
-                    <h2>Постер New Orlean vs Golden Star</h2>
+                    <h2 class="cases-title">Постер New Orlean vs Golden Star</h2>
                     <p>Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/portfolio3.jpg" alt="Ресторан Seafood" width="370px" height="294px">
-                    <h2>Ресторан Seafood</h2>
+                    <h2 class="cases-title">Ресторан Seafood</h2>
                     <p>Приложение</p>
                 </li>
                 <li>
                     <img src="./images/portfolio4.jpg" alt="Проект Prime" width="370px" height="294px">
-                    <h2>Проект Prime</h2>
+                    <h2 class="cases-title">Проект Prime</h2>
                     <p>Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/portfolio5.jpg" alt="Проект Boxes" width="370px" height="294px">
-                    <h2>Проект Boxes</h2>
+                    <h2 class="cases-title">Проект Boxes</h2>
                     <p>Приложение</p>
                 </li>
                 <li>
                     <img src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370px" height="294px">
-                    <h2>Inspiration has no Borders</h2>
+                    <h2 class="cases-title">Inspiration has no Borders</h2>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/portfolio7.jpg" alt="Издание Limited Edition" width="370px" height="294px">
-                    <h2>Издание Limited Edition</h2>
+                    <h2 class="cases-title">Издание Limited Edition</h2>
                     <p>Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/portfolio8.jpg" alt="Проект LAB" width="370px" height="294px">
-                    <h2>Проект LAB</h2>
+                    <h2 class="cases-title">Проект LAB</h2>
                     <p>Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/portfolio9.jpg" alt="Growing Business" width="370px" height="294px">
-                    <h2>Growing Business</h2>
+                    <h2 class="cases-title">Growing Business</h2>
                     <p>Приложение</p>
                 </li>
 
@@ -111,16 +117,17 @@
 
     </main>
     <!-- Підвал сторінки -->
-    <footer>
-        <a href="./index.html">WebStudio</a>
+    <footer class="footer">
+        <a href="./index.html" class="footer-logo"><span class="logo-web-footer">Web</span><span
+                class="logo-studio-footer">Studio</span></a>
         <!-- Адреса і реквізити пошти і контактування -->
-        <address>
+        <adress class="adress">
             <ul>
                 <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
                 <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
-        </address>
+        </adress>
 
 
     </footer>

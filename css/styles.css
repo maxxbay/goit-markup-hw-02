@@ -6,6 +6,8 @@
     --background-team: #F5F4FA;
     --bacground-color-hero: #2F303A;
     --footer-color-text: rgba(255, 255, 255, 0.6);
+    --logo-studio: #000000;
+    --button-bcg: #F5F4FA;
 
 }
 
@@ -36,7 +38,15 @@ ul {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: var(--text-link);
+
+}
+
+.header-logo .logo-web {
+    color: var(--text-link)
+}
+
+.header-logo .logo-studio {
+    color: var(--logo-studio);
 }
 
 .header-nav .link {
@@ -137,18 +147,50 @@ ul {
     background-color: var(--bacground-color-hero);
 }
 
-.footer .footer-logo {
-    color: var(--hero);
-}
-
-.adress .adress-one {
-    color: var(--hero);
-}
-
-.adress .adress-contact {
+.footer .adress a {
     color: var(--footer-color-text);
 }
 
-.adress .adress-tel {
-    color: var(--footer-color-text);
+.footer .adress a:hover,
+.footer .adress a:focus {
+    color: var(--hero);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.footer-logo .logo-web-footer {
+    color: var(--text-link);
+}
+
+.footer-logo .logo-studio-footer {
+    color: var(--hero);
+}
+
+/* П О Р Т Ф О Л І О  */
+
+/* Головна частина сторінки */
+.section-portfolio {
+    bacground color: var(--hero)
+}
+
+.button-portfolio .btn {
+    background-color: var(--button-bcg);
+    color: var(--primary-text-color);
+}
+
+.button-portfolio .btn:hover,
+.button-portfolio .btn:focus {
+    background-color: var(--text-link);
+    color: var(--hero);
+}
+
+.cases .cases-title {
+    color: var(--primary-text-color);
 }
