@@ -273,7 +273,7 @@ ul {
 
 /* Головна частина сторінки */
 .section-portfolio {
-    bacground-color: var(--hero)
+    background-color: var(--hero)
 }
 
 .button-portfolio .btn {
