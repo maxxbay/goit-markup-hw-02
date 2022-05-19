@@ -143,6 +143,8 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
 /* SECTION середина */
@@ -236,19 +238,7 @@ ul {
     color: var(--hero);
 }
 
-.adress .adr {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    color: var(--hero);
-
-    text-decoration: none;
-}
-
+.adress .adr,
 .adress .mail,
 .adress .tel {
     font-family: 'Roboto';
@@ -263,6 +253,22 @@ ul {
     text-decoration: none;
 }
 
+
+.adress .adr:hover,
+.adress .adr:focus {
+    color: var(--hero);
+}
+
+.adress .mail:hover,
+.adress .mail:focus {
+    color: var(--hero);
+}
+
+.adress .tel:hover,
+.adress .tel:focus {
+    color: var(--hero);
+}
+
 /* П О Р Т Ф О Л І О  */
 
 /* Головна частина сторінки */
@@ -273,6 +279,8 @@ ul {
 .button-portfolio .btn {
     background-color: var(--button-bcg);
     color: var(--primary-text-color);
+
+    cursor: pointer;
 }
 
 .button-portfolio .btn:hover,
