@@ -37,9 +37,10 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 
+    text-decoration: none;
 }
 
 .header-logo .logo-web {
@@ -55,9 +56,12 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+
     color: var(--primary-text-color);
+
+    text-decoration: none;
 }
 
 .header-nav .link.current {
@@ -74,9 +78,12 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+
     color: var(--text-color);
+
+    text-decoration: none;
 }
 
 .header-contacting .link:hover,
@@ -102,10 +109,19 @@ ul {
 
 .hero .hero-title {
     color: var(--hero);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Кнопка */
 .hero .button {
+    font-family: inherit;
     color: var(--hero);
     background-color: var(--text-link);
     /* position: absolute; */
@@ -122,20 +138,72 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 }
 
-/* SECTION */
+/* SECTION середина */
 
 .section .section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+
+}
+
+.section .section-title-second {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
     color: var(--primary-text-color);
 }
 
+.section .section-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 
+    /* color: var(--text-color); */
+}
+
+.section .section-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
+}
+
+.section .section-position {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /* Підвал */
 /* Лого перша частина #2196F3 */
@@ -154,8 +222,10 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+
+    text-decoration: none;
 }
 
 .footer-logo .logo-web-footer {
@@ -167,12 +237,30 @@ ul {
 }
 
 .adress .adr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
     color: var(--hero);
+
+    text-decoration: none;
 }
 
 .adress .mail,
 .adress .tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
     color: var(--footer-color-text);
+
+    text-decoration: none;
 }
 
 /* П О Р Т Ф О Л І О  */
@@ -194,5 +282,21 @@ ul {
 }
 
 .cases .cases-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
     color: var(--primary-text-color);
+}
+
+.cases .cases-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
