@@ -12,9 +12,6 @@
 }
 
 body {
-    font-family: 'Raleway',
-        sans-serif;
-
     font-family: 'Roboto',
         sans-serif;
     background-color: var(--hero);
@@ -52,8 +49,6 @@ ul {
 }
 
 .header-nav .link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,9 +68,8 @@ ul {
     color: var(--text-link);
 }
 
+
 .header-contacting .link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -109,8 +103,6 @@ ul {
 
 .hero .hero-title {
     color: var(--hero);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -134,8 +126,6 @@ ul {
 }
 
 .button {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -150,8 +140,7 @@ ul {
 /* SECTION середина */
 
 .section .section-title {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -163,8 +152,7 @@ ul {
 }
 
 .section .section-title-second {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -175,9 +163,7 @@ ul {
 }
 
 .section .section-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -186,8 +172,7 @@ ul {
 }
 
 .section .section-name {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -198,9 +183,7 @@ ul {
 }
 
 .section .section-position {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -238,12 +221,14 @@ ul {
     color: var(--hero);
 }
 
-.adress .adr,
-.adress .mail,
-.adress .tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.adress .adr {
+    color: var(--hero);
+    text-decoration: none;
+
+}
+
+.adress .link {
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -253,21 +238,11 @@ ul {
     text-decoration: none;
 }
 
-
-.adress .adr:hover,
-.adress .adr:focus {
-    color: var(--hero);
+.adress .link:hover,
+.adress .link:focus {
+    color: var(--text-link);
 }
 
-.adress .mail:hover,
-.adress .mail:focus {
-    color: var(--hero);
-}
-
-.adress .tel:hover,
-.adress .tel:focus {
-    color: var(--hero);
-}
 
 /* П О Р Т Ф О Л І О  */
 
@@ -277,7 +252,15 @@ ul {
 }
 
 .button-portfolio .btn {
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: var(--button-bcg);
+
     color: var(--primary-text-color);
 
     cursor: pointer;
@@ -290,8 +273,7 @@ ul {
 }
 
 .cases .cases-title {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -301,9 +283,7 @@ ul {
 }
 
 .cases .cases-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
