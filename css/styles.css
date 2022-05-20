@@ -31,7 +31,6 @@ ul {
 /* #2196F3 текст синій */
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -204,7 +203,7 @@ ul {
 
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
