@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #212121;
     --text-color: #757575;
@@ -11,16 +21,18 @@
 
 }
 
+
 body {
     font-family: 'Roboto',
         sans-serif;
     background-color: var(--hero);
     color: var(--text-color);
-
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Шапка */
@@ -29,6 +41,8 @@ ul {
 /* #212121 текст чорний */
 /*  #757575 колір номера телефону*/
 /* #2196F3 текст синій */
+
+
 .header-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -68,6 +82,7 @@ ul {
 }
 
 
+
 .header-contacting .link {
     font-weight: 500;
     font-size: 14px;
@@ -98,9 +113,12 @@ ul {
 /* HERO */
 .hero {
     background-color: #2F303A;
+    margin-bottom: 94px;
 }
 
 .hero .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--hero);
     font-weight: 900;
     font-size: 44px;
@@ -112,6 +130,7 @@ ul {
 
 /* Кнопка */
 .hero .button {
+    display: inline;
     font-family: inherit;
     color: var(--hero);
     background-color: var(--text-link);
@@ -122,6 +141,7 @@ ul {
     top: 430px; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
 }
 
 .button {
@@ -137,6 +157,11 @@ ul {
 }
 
 /* SECTION середина */
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
 
 .section .section-title {
 
